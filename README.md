@@ -1,3 +1,4 @@
-# Create an .xlsx file in a browser
+# How to determine exactly and quickly the total memory used by a web page? 
+Not the heap size, but the total memory including strings and loaded resources.
 
-Sample code for my post https://marian-caikovski.medium.com/create-an-xlsx-file-in-a-browser-df52f40961d0 about dynamically loading mini Sheet as a module in response to a user action
+Sample code for my post https://marian-caikovski.medium.com/how-to-determine-exactly-and-quickly-the-total-memory-used-by-a-web-page-d54cc3d90b46 about retrieving the totlal memory used by a web page.
