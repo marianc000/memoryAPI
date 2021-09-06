@@ -1,8 +1,5 @@
 import { printMemory, getHistory } from './memory.js';
 import { makeString } from './strings.js';
- 
-
-const source = JSON.parse('[["baseline",2.330229],["a = makeString(10)",12.349747],["b = makeString(3)",15.279981],["c = makeString(1)",16.307257],["a = null",6.302573],["b = null",3.283747],["c = null",2.295941]]');
 
 function plot(data){
   import('./plot.js').then(({plot})=>plot(data));
