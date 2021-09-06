@@ -13,7 +13,8 @@ runBtn.onclick = run;
 let a, b, c;
 
 function run() {
-  console.log('wait until you see done')
+  console.log('wait until you see done');
+  runBtn.disabled=true;
   printMemory('baseline')
     .then(() => {
       a = makeString(10);
